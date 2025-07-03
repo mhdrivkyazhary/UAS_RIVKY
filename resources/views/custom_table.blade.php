@@ -25,7 +25,7 @@
                         <td>{{ $entry->field2 }}</td>
                         <td>{{ $entry->description }}</td>
                         <td>
-                            <a href="{{ route('custom_table_17.show', $entry) }}" class="btn btn-info btn-sm">View</a>
+                            <a href="{{ route('custom_table.show', $entry) }}" class="btn btn-info btn-sm">View</a>
                             <a href="{{ route('custom_table.edit', $entry) }}" class="btn btn-warning btn-sm">Edit</a>
                             <form action="{{ route('custom_table.destroy', $entry) }}" method="POST"
                                 style="display:inline-block;">

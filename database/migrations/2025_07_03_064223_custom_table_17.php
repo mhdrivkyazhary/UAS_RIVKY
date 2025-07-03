@@ -12,8 +12,8 @@ return new class extends Migration
     public function up(): void
     { Schema::create('custom_table_17',function (Blueprint $table) {
             $table->id();
-            $table->string('field_1');
-            $table->string('field_2');
+            $table->string('field1');
+            $table->string('field2');
             $table->text('description')->nullable();
             $table->timestamps();
         });

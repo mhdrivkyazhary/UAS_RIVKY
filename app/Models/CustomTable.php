@@ -11,7 +11,7 @@ class CustomTable extends Model
 
     protected $table = 'custom_table_17';
     protected $fillable = [
-        'field_1',
-        'field_2',
+        'field1',
+        'field2',
         'description'];
 }
